@@ -1,12 +1,12 @@
   import React, { useState } from "react";
 
   const App = () => {
-    const [count, setCount] = useState(10);
+    const [count, setCount] = useState(13);
 
 
    return (
     <>
-      <p>Parammmm : {count}</p>
+      <p>Param : {count}</p>
     </>
    );
   };
